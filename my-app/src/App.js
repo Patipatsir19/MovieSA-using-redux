@@ -1,10 +1,14 @@
+import React, {Fragment} from 'react';
+
+import Header from './components/Header/Header.component';
+
 import './App.scss';
 
 function App() {
   return (
-    <div className="App">
-      app
-    </div>
+    <Fragment>
+      <Header/>
+    </Fragment>
   );
 }
 
