@@ -1,4 +1,4 @@
-import React, {useEffect, useRef} from "react";
+import React, {useRef} from "react";
 import { Outlet } from "react-router-dom";
 import { Link, useLocation } from "react-router-dom";
 
